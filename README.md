@@ -1,12 +1,12 @@
-##TIC-TAC-TOE
+## TIC-TAC-TOE
 
-Project for Algorithms I - University class.
-Developed using C.
+- Project for Algorithms I - University class.
+- Developed using C.
 
-##About the game:
+## About the game:
 
 Your goal here is to win the machine.
 
-##How to use:
+## How to use:
 
 It's pretty simple. Just compile and run :)
