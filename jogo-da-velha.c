@@ -31,7 +31,7 @@ void show_game_board(char board[3][3])
     {
         for(int j = 0; j < 3; j++)
         {
-            printf("  %c  ", board[i][j]);
+            printf("\t%c", board[i][j]);
         }
         printf("\n");
     }
@@ -192,6 +192,7 @@ int main()
     srand(time(NULL));
     char board[3][3];
     int board_check[3][3], win = 0;
+    printf("\n\t    TIC-TAC-TOE\n");
     create_game_board_check(board_check);
     create_game_board(board);
     show_game_board(board);
